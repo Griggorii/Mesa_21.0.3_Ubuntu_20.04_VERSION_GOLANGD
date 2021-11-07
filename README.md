@@ -1,5 +1,5 @@
 # Mesa_21.0.3_Ubuntu_20.04_VERSION_GOLANGD
-mesa , ubuntu 20.04 , native , 21.0.3 , amd64 , test perfomance , gbm , go compilator , ultra fast wayland
+mesa , ubuntu 20.04 , native , 21.0.3 , amd64 , test perfomance , gbm , go compilator , ultra fast wayland , license
 
  Test build language go | golang
 
