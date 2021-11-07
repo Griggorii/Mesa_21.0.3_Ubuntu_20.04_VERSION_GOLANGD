@@ -1,21 +1,57 @@
 MIT License
 
-Copyright (c) 2021 Griggorii
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+      amd64 build mesa-21.0.3 version V10 by griggorii
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Only real technologies, not any fictional parasitic distributions support real technology investments and donate VISA 4817 7601 8112 4706
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+                                                          Mesa rebuild 07/11/2021
+
+This license for each binary file x86_64-linux-gnu with its hash amount implies the following that you will use it for yourself for free, but if you decide to commercialize these binary files by selling TV set-top boxes based on it, phones, payment terminals, bank terminals and other equipment, including When selling software, you must invest at least one percent of the cost of any device using my build binaries.
+
+Данная лицензия на каждый бинарный фаил данного билда именно архитектуры x86_64-linux-gnu с его хеш суммой подразумевает следующее что вы его будете использовать для себя лично бесплатно , но если вы решили коммерциализировать данные бинарные фаилы продавая на основе него тв приставки , телефоны , терминалы оплаты , банковские терминалы и другое оборудование в том числе продавая программное обеспечение то вы должны инвестировать от одного процента от стоимости любого устройства или програмного софтварного комплекса использующего бинарные фаилы моего билда. Запрещается так же выкладывать на всех сайтах как в виде модулей , перепаковка в deb , rpm и другие форматы так и целиком кроме опубликования ссылки именно на прямого автора https://github.com/Griggorii в связи с игнорированием интернет индустрией моих работ я не получаю ни каких донатных поощрений для дальнейшей разработки или же каких то подобных премиях , я думаю кроме меня пять лет никто бесплатно не работал и работать не будет по причинам "материального мира" данное описание посвящено вендорам и коллегам и крупным технологическим компаниям it гигантам по технологиям в том числе крупным мобильным вендорам , в случае не соблюдения требовании или же переименовании данных библиотек моя сторона будет подавать иск о возмещении "утерянных выгод" и заключения штрафного контракта в случае выдачи этих фаилов другими лицами именно по md5 сумме проданных третьими лицами как свои вендорам , по скольку я не могу еще пять лет работать бесплатно по причине материального мира в котором нету понятия "бесплатная покупка чего либо" в течении пяти лет я пока не получил что либо от каких либо вендоров или ит каких либо ответвлении технологических компаний и буду ждать письмо на griggorii@gmail.com.
+
+MD5
+
+/usr/lib/x86_64-linux-gnu/dri
+
+
+312139154e01a3fd1fd58dd183e36ce1 d3d12_dri.so iris_dri.so kms_swrast_dri.so nouveau_dri.so r300_dri.so r600_dri.so radeonsi_dri.so swrast_dri.so virtio_gpu_dri.so vmwgfx_dri.so zink_dri.so
+
+960740d782bfd838a7ec2dff810f79a3 i915_dri.so i965_dri.so nouveau_vieux_dri.so r200_dri.so radeon_dri.so
+
+86f845db25ae69820c71ed0472eaf92b nouveau_drv_video.so r600_drv_video.so radeonsi_drv_video.so
+
+/usr/lib/x86_64-linux-gnu/vdpau 
+
+e84b59856abcf36ff72bfb13972bb9be libvdpau_r300.so.1.0.0 libvdpau_r600.so.1.0.0 libvdpau_nouveau.so.1.0.0
+
+/usr/lib/x86_64-linux-gnu/gallium-pipe
+
+035031c16720ee70273ace21c189eb2e pipe_iris.so
+afe24cb13408aeda2b864a6e67721be0 pipe_nouveau.so
+295579037f30193b39ffe34b516df466 pipe_r300.so
+64d2cea5e7a8224d3ca26e4a07e8fe47 pipe_r600.so
+5a8f7afab5b0e1242ee5d0c5c344f794 pipe_radeonsi.so
+5ce944f3d6e23c1c1f51ef7d8e70bc2f pipe_swrast.so
+5f864b06276049b189e1b02d557a2234 pipe_vmwgfx.so
+
+/usr/lib/x86_64-linux-gnu/d3d
+
+3caea4db9ccd08163e95f58bd03f15a3 d3dadapter9.so.1.0.0
+
+/usr/lib/x86_64-linux-gnu
+
+52772766af162e09bb5457c7e05960ce libxatracker.so.2.5.0
+441575bad6c104a9b32b4dd05a9a0775 libGLX_mesa.so.0.0.0
+64402a26942961cb0f583985baed3382 libglapi.so.0.0.0
+0685cda6364884c91a9f6991ea0a84be libgbm.so.1.0.0
+bdef91dfcc7c029f7a3bca266a622afb libEGL_mesa.so.0.0.0
+44bfe42ae1c6cbb6c2c19b323a3c0041 libOSMesa.so.8.0.0
+c7000f6af20e291c697bbe54c082c36f libVkLayer_MESA_device_select.so
+241593ca1a73d692fb45f2a81d05a550 libVkLayer_MESA_overlay.so
+491a644bb45edc79d12059ba1e7f4813 libvulkan_intel.so
+fa797db7f4f2c88261541b5c1f1c6bff libvulkan_lvp.so
+71da515b8ac7a796aa271525ddbd3c3a libvulkan_radeon.so
+
+Alternative test speed perfomance reinstall mesa-opencl-icd_21.0.3-0ubuntu0.3~20.04.3_amd64.deb one package opencl github.com/Griggorii/Mesa-13.0.4-xorg_Ubuntu_20.04_tar.xz_add_deb_package/blob/main/LICENSE read license libMesaOpenCL.so.1.0.0
